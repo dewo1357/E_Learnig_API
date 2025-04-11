@@ -16,7 +16,7 @@ const routes = [
             const response = h.response({
                 'Message' : "Tidak Ditemukan"
             })
-            response.code(404)
+            response.code(200)
 
             return response
         }
